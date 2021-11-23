@@ -3,7 +3,7 @@
 ### 准备工作（适用于新服务器）
 1. 一个干净的服务器是缺少一些工具的，需要自己装一下，比如：wget、git、docker、docker-compose 这些（具体咋装软件如有需要再补充吧），安装好后，克隆本项目，再把 docker 服务开起来；
 
-2. 准备一个域名，免费域名经测试申请不了了，所以花点小钱买一个，然后把 A 记录解析改为你服务器 ip。
+2. 准备一个域名，免费域名。
 
 ### 服务端
 1. 使用 [GGUID](https://www.guidgen.com/) 生成一个 ID 标识，然后打开 `./v2ray/config.json` 文件，修改[第 9 行](https://github.com/wubaiqing/v2ray-docker-compose/blob/master/v2ray/config.json#L9)的 ID 标识；
